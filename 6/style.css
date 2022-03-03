@@ -1,0 +1,23 @@
+*{ margin: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.row {
+    padding-top: 20rem;
+}
+.input {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    width: 400px;
+}
+#eye {
+    position: absolute;
+    transform: translate(0,-50%);
+    right: 466px;
+    top: 341px;
+    cursor: pointer;
+}
